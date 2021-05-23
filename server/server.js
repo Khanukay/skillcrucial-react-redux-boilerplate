@@ -29,7 +29,7 @@ const port = process.env.PORT || 8090
 const server = express()
 
 const setHeaders = (req, res, next) => {
-  res.set('x-skillcrucial-user', '385666b1-bff5-11e9-95ba-1bf845c18f8d')
+  res.set('x-skillcrucial-user', '5c4b6d6d-eb8f-4c87-9748-6034a74975e3')
   res.set('Access-Control-Expose-Headers', 'X-SKILLCRUCIAL-USER')
   next()
 }
